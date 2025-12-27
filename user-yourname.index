@@ -2,8 +2,8 @@
 <index>
 	<info>
 		<name>Your Content</name>
-		<update version="1.0.2">
-			<file name="user-yourname.index" url="https://github.com/deving676/homebrew/master/user-yourname.index" />
+		<update version="1.0.3">
+			<file name="user-yourname.index" url="https://raw.github.com/deving676/homebrew/master/user-yourname.index" />
 		</update>
 	</info>
 	<files>
