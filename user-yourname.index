@@ -2,12 +2,11 @@
 <index>
 	<info>
 		<name>Your Content</name>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="user-yourname.index" url="https://github.com/deving676/homebrew/master/user-yourname.index" />
 		</update>
 	</info>
 	<files>
 		<file name="file1.xml" url="https://raw.githubusercontent.com/deving676/homebrew/master/user-yourname/file1.xml" />
-		<file name="file2.xml" url="https://raw.githubusercontent.com/deving676/homebrew/master/user-yourname/file2.xml" />
 	</files>
 </index>
