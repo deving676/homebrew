@@ -2,11 +2,29 @@
 <elements>
 	<info>
 		<name>File 1</name>
-		<update version="1.0.0">
-			<file name="file1.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file1.xml" />
+		<update version="1.0.1">
+			<file name="file1.xml" url="https://raw.githubusercontent.com/deving676/homebrew/master/user-yourname/file1.xml" />
 		</update>
 	</info>
-	
-	<!-- place your elements here -->
-	
+<element name="Twin Daggers" type="Weapon" source="Custom" id="ID_CUSTOM_TWIN_DAGGERS">
+    <supports>
+        ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, 
+        ID_INTERNAL_DAMAGE_TYPE_PIERCING, 
+        ID_INTERNAL_WEAPON_PROPERTY_FINESSE, 
+        ID_INTERNAL_WEAPON_PROPERTY_LIGHT, 
+        ID_INTERNAL_WEAPON_PROPERTY_THROWN
+    </supports>
+    <description>
+        <p>A pair of finely balanced daggers, perfect for quick, chaotic attacks. Wielded together, they allow for swift, dual strikes in combat.</p>
+    </description>
+    <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">20</set> <!-- Approximate cost for a set of twin daggers -->
+        <set name="weight" lb="1">1 lb. each</set>
+        <set name="slot">onehand</set>
+        <set name="range">20/60</set>
+        <set name="damage" type="piercing">1d4</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+    </setters>
+</element>
 </elements>
